@@ -80,7 +80,7 @@ public class GameController : MonoBehaviour
         }
         else if (time <= 0)
         {
-            timeText.text = "Time: 0:00";
+            timeText.text = "Time: 00:00";
             GameOver();
         }
 
